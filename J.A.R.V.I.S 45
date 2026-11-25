@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JARVIS - Official App</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      margin: 0;
+      padding: 24px;
+      display: flex;
+      justify-content: center;
+    }
+    .card {
+      background: #1e293b;
+      max-width: 540px;
+      width: 100%;
+      padding: 32px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+      text-align: center;
+      margin-top: 20px;
+      border: 1px solid #334155;
+    }
+    .badge {
+      display: inline-block;
+      background: #0ea5e9;
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+    h1 { margin: 0 0 8px; font-size: 1.9rem; }
+    .price { color: #34d399; font-size: 1.3rem; font-weight: 700; margin-bottom: 14px; }
+    p { color: #cbd5e1; line-height: 1.6; }
+    .btn {
+      display: block;
+      background-color: #10b981;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 15px 24px;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin: 22px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">ANDROID APP</div>
+    <h1>JARVIS</h1>
+    <div class="price">&#8377;99</div>
+    <p>Smart assistant app designed to help with everyday tasks, quick commands, and productivity.</p>
+    <a href="#" class="btn">Buy Now &bull; &#8377;99</a>
+  </div>
+</body>
+</html>
